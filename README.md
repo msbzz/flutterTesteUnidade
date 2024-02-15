@@ -10,7 +10,7 @@ Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widg
 
 <table style="width: 100%; border-collapse: collapse;" border="0">
   <tr>
-    <td style="width: 25%; border: none;"> <img src="info/projetoInicial.png" alt="ativando menu" style="width: 55%; display: block;"/></td>
+    <td style="width: 50%; border: none;"> <img src="info/projetoInicial.png" alt="ativando menu" style="width: 55%; display: block;"/></td>
     <td style="width: 70%; border: none;">
      <span>
      Este aplicativo não faz a atualização de forma automática de seus componentes em função simulação da movimentação bancária. Isso é proposital para diminuir a complexidade dos testes já que não se trata de um curso avançado.
