@@ -3,11 +3,6 @@
 Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widgets e mocks da plataforma ALURA
 
 
-
-
-<!--<img src="info/projetoInicial.png" alt="projeto inicial" width="25%"/>-->
-
-
 <table style="width: 100%; border-collapse: collapse;" border="0">
   <tr>
     <td style="border: none;"> <img src="info/projetoInicial.png" alt="ativando menu" style="width: 100%; display: block;"/></td>
@@ -24,16 +19,18 @@ Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widg
 
   ## Primerio Teste
 
-   Nesse teste foi verificado se o valor recebido pela propriedade 'points' do metodo 'transfer' da classe BankModel é identico a entrada. Nesse caso o valor de entrada foi de 10 e o valor da esperdo pela varivél tambem é 10.
+   Nesse teste foi verificado se o valor recebido pela propriedade 'points' do metodo 'deposit' da classe BankModel é identico a entrada. Nesse caso o valor de entrada foi de 10 e o valor da esperdo pela varivél tambem é 10.
 
    No segundo caso foi feita uma simulação de alteração de codigo o que gerou o erro.
 
 
 <table style="width: 100%; border-collapse: collapse;" border="0">
   <tr?>
-    <td style="border: none;"> <img src="info/primeiro teste.png" alt="ativando menu" style="width: 100%; display: block;"/></td>
+    <td style="border: none;"> <img src="info/criando test.png" alt="criando teste" style="width: 100%; display: block;"/></td>
+    </tr>
+    <td style="border: none;"> <img src="info/primeiro teste.png" alt="primeiro teste sucesso" style="width: 100%; display: block;"/></td>
     </tr>
     <tr> 
-     <td style="border: none;"> <img src="info/primeiro teste forcando erro.png" alt="ativando menu" style="width: 100%; display: block;"/></td>
+     <td style="border: none;"> <img src="info/primeiro teste forcando erro.png" alt="primeiro teste erro" style="width: 100%; display: block;"/></td>
   </tr>
 </table>

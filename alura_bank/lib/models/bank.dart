@@ -9,12 +9,12 @@ class BankModel {
   void deposit(double money) {
     available += money;
     earned += money;
-    points += money;
+    points += money *2;
   }
 
   void transfer(double money) {
     available -= money;
-    points += money*2;
+    points += money;
     spent += money;
   }
 }
