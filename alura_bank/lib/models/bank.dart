@@ -14,7 +14,7 @@ class BankModel {
 
   void transfer(double money) {
     available -= money;
-    points += money;
+    points += money*2;
     spent += money;
   }
 }
