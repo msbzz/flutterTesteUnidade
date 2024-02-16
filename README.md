@@ -40,7 +40,7 @@ Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widg
 
   Neste teste abaixo, o que está sendo verificado é a existencia do texto 'Spent' dentro de todos os widgets usados por Home()
 
-  obs: no caso, a busca para na primeira ocorrência 'findsOne'
+  obs: no caso, a busca para na primeira ocorrência 'findsOneWidget'
 
 
   <table style="width: 100%; border-collapse: collapse;" border="0">
