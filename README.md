@@ -17,7 +17,7 @@ Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widg
   </tr>
 </table>
 
-  ## Primerio Teste
+  ## Primerio Teste (Unidade)
 
    Nesse teste foi verificado se o valor recebido pela propriedade 'points' do metodo 'deposit' da classe BankModel é identico a entrada. Nesse caso o valor de entrada foi de 10 e o valor da esperdo pela varivél tambem é 10.
 
@@ -32,5 +32,29 @@ Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widg
     </tr>
     <tr> 
      <td style="border: none;"> <img src="info/primeiro teste forcando erro.png" alt="primeiro teste erro" style="width: 100%; display: block;"/></td>
+  </tr>
+</table>
+
+
+  ## Segundo Teste (Widget)
+
+  Neste teste abaixo, o que está sendo verificado é a existencia do texto 'Spent' dentro de todos os widgets usados por Home()
+
+  obs: no caso, a busca para na primeira ocorrência 'findsOne'
+
+
+  <table style="width: 100%; border-collapse: collapse;" border="0">
+  <tr?>
+    <td style="border: none;"> <img src="info/widget_find_text_01.png" alt="teste widget" style="width: 100%; display: block;"/></td>
+    </tr>
+    <td style="border: none;"> <img src="info/widget_find_text_02.png" alt="teste widget sucesso" style="width: 100%; display: block;"/></td>
+    </tr>
+    <tr> 
+     <td style="border: none;"> <img src="info/widget_find_text_err_03.png" alt="teste widget erro" style="width: 100%; display: block;"/>
+     </td>
+  </tr>
+  <tr> 
+     <td style="border: none;"> <img src="info/widget_find_text_err_04.png" alt="teste widget erro" style="width: 100%; display: block;"/>
+     </td>
   </tr>
 </table>
