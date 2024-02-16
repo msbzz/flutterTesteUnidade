@@ -59,6 +59,12 @@ Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widg
   </tr>
 </table>
 
- Busca pela chave unica de um widget
+ Busca pela chave unica de um widget (widget key)
 
  <img src="info/widget_find_key_05.png" alt="busca por chave unica do widget" style="width: 100%; display: block;"/>
+
+
+ Busca por repetições do widget (BoxCard)
+
+
+ <img src="info/widget_find_nwidgets_06.png" alt="busca repetições do widget" style="width: 100%; display: block;"/>
