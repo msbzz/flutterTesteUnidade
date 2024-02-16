@@ -58,3 +58,7 @@ Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widg
      </td>
   </tr>
 </table>
+
+ Busca pela chave unica de um widget
+
+ <img src="info/widget_find_key_05.png" alt="busca por chave unica do widget" style="width: 100%; display: block;"/>

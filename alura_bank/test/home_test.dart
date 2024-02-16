@@ -15,4 +15,22 @@ void main() {
     final spentFinder = find.text('Spent');
     expect(spentFinder, findsOne);
   });
+     // barra de progresso "LinearProgressIndicator"
+    testWidgets('finds a LinearProgressIndicator', (tester) async {
+    await tester.pumpWidget(MaterialApp(
+      home: BankInherited(
+        child: const Home(),
+      ),
+    ));
+    expect(find.byType(LinearProgressIndicator), findsOneWidget);
+  });
+
+  testWidgets('finds a AccountStatus', (tester) async {
+    await tester.pumpWidget(MaterialApp(
+      home: BankInherited(
+        child:const Home(),
+      ),
+    ));
+    expect(find.byKey(const Key('testKey')), findsOneWidget);
+  });
 }
