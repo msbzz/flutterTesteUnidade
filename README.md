@@ -68,3 +68,7 @@ Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widg
 
 
  <img src="info/widget_find_nwidgets_06.png" alt="busca repetições do widget" style="width: 100%; display: block;"/>
+
+Tester para Ação 'Deposit' e atualização do card 'RecentActivity'
+
+<img src="info/widget_acoes_07.png" alt="teste de ações" style="width: 100%; display: block;"/>
