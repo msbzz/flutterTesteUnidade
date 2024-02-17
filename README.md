@@ -73,7 +73,7 @@ Tester para Ação 'Deposit' e atualização do card 'RecentActivity'
 
 <img src="info/widget_acoes_07.png" alt="teste de ações" style="width: 100%; display: block;"/>
 
-### Simulação de API externa (mockito) usando um dublê
+### Simulação de API externa usando um dublê (mockito)
 
  Ao fazermos testes a conexão a api externa, esta não é realizada de forma correta devido ao tempo de conexão o que pode induzir a um erro que é chamado de 'Fake test', 'Fake' porque o erro não esta na aplicação mas sim a fatores externos que pode falhar ou não.
 
