@@ -107,3 +107,8 @@ Tester para Ação 'Deposit' e atualização do card 'RecentActivity'
      </td>
   </tr>
 </table>
+
+
+### Validação final
+
+<img src="info/validacao_final.png" alt="teste de ações" style="width: 100%; display: block;"/>

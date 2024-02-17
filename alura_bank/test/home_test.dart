@@ -45,6 +45,7 @@ void main() {
 
   // busca de repetições de widgets
   testWidgets('finds 5 BoxCards ', (tester) async {
+    when(httpMock.dolarToReal()).thenAnswer((_) async => ('5'));
     await tester.pumpWidget(MaterialApp(
       home: BankInherited(
         child: Home(api: httpMock.dolarToReal(),),
