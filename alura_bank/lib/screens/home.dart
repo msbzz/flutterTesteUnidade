@@ -6,19 +6,19 @@ import 'package:alura_bank/data/bank_http.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
-  const Home({Key? key}) : super(key: key);
-
+  const Home({required this.api,Key? key}) : super(key: key);
+  final Future<String> api;
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Header(), // cuidado com o const
-            RecentActivity(),
-            ActionsSection(),
-            PointsExchange(),
+            Header(api:api,), // cuidado com o const
+            const RecentActivity(),
+            const ActionsSection(),
+            const PointsExchange(),
           ],
         ),
       ),

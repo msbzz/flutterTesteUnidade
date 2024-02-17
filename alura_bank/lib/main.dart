@@ -1,3 +1,4 @@
+import 'package:alura_bank/data/bank_http.dart';
 import 'package:alura_bank/data/bank_inherited.dart';
 import 'package:alura_bank/screens/home.dart';
 import 'package:alura_bank/themes/purple_theme.dart';
@@ -16,7 +17,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: purpleTheme,
-      home: BankInherited(child: const Home()),
+      home: BankInherited(
+        child: Home(
+          api: BankHttp().dolarToReal(),
+        )),
     );
   }
 }

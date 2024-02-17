@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:mockito/annotations.dart';
+import 'bank_http.mocks.dart';
 
 @GenerateMocks([BankHttp])
 

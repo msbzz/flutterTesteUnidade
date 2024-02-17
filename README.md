@@ -72,3 +72,38 @@ Este projeto é fruto do curso de 'Flutter : Aplicando testes de unidade de widg
 Tester para Ação 'Deposit' e atualização do card 'RecentActivity'
 
 <img src="info/widget_acoes_07.png" alt="teste de ações" style="width: 100%; display: block;"/>
+
+### Simulação de API externa (mockito) usando um dublê
+
+ Ao fazermos testes a conexão a api externa, esta não é realizada de forma correta devido ao tempo de conexão o que pode induzir a um erro que é chamado de 'Fake test', 'Fake' porque o erro não esta na aplicação mas sim a fatores externos que pode falhar ou não.
+
+ A solução para isso é usar uma tecnica chamada de 'dublê' onde são usados componentes especificos para isso (mock,stub entre outros ) .
+
+ No caso da aplicação foi usado um 'mock', gerado através do Mockito, que será o duble da API (BankHttp)
+
+ https://pub.dev/packages/mockito
+
+ Após feita a instalação, e gerado o Mock, e é necessário se fazer uma adaptação no codigo devido a todo test ser baseado na renderização de 'Home' que aciona Header que por sua vez aciona 'BankHttp().dolarToReal()'.
+
+ obs: apenas na chamada via 'home()' é feita a adaptação do doublê, na chamada por 'main()' é mantida a api.
+
+
+  <table style="width: 100%; border-collapse: collapse;" border="0">
+  <tr?>
+      <td style="border: none;"> <img src="info/test_chamada_api.png" alt="teste api" style="width: 75%; display: block;"/></td>
+    </tr>
+    <td style="border: none;"> <img src="info/test_double.png" alt="teste widget double api sucesso" style="width: 75%; display: block;"/></td>
+    </tr>
+      <tr> 
+     <td style="border: none;"> <img src="info/header double.png" alt="header double api" style="width: 75%; display: block;"/>
+     </td>
+  </tr>
+    <tr> 
+     <td style="border: none;"> <img src="info/home_double.png" alt="home double api" style="width: 45%; display: block;"/>
+     </td>
+  </tr>
+  <tr> 
+     <td style="border: none;"> <img src="info/main api.png" alt="main api" style="width: 45%; display: block;"/>
+     </td>
+  </tr>
+</table>
